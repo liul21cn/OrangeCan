@@ -9,3 +9,9 @@
   box-sizing: border-box;
   background-color: #EFF5FB;
 } 
+
+text{
+  font-size: 24rpx;
+  font-family: Microsoft YaHei;
+  color: #666;
+}

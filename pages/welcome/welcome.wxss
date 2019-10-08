@@ -1,6 +1,4 @@
-text{
-  font-family: Microsoft YaHei;
-}
+
 .container{
   display: flex;
   flex-direction: column;
