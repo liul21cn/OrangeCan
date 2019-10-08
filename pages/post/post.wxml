@@ -1,0 +1,19 @@
+<!--pages/post/post.wxml-->
+<view>
+  <swiper indicator-dots="true" autoplay="true" interval="5000">
+    <swiper-item>
+      <image src="/images/post/post-1@text.jpg"></image>
+    </swiper-item>
+     <swiper-item>
+      <image src="/images/post/post-2@text.jpg"></image>
+    </swiper-item>
+     <swiper-item>
+      <image src="/images/post/post-3@text.jpg"></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<view>
+</view>
+
+
