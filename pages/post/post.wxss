@@ -53,13 +53,15 @@ swiper image{
   color: #333;
   margin-bottom: 10px;  
   margin-left: 10px;
+  margin-right: 16rpx;
 }
 
+/* post 内容页 */
 .post-content{
   font-size: 26rpx;  
   color: #666;
   margin-bottom: 20px;  
-  margin-left: 20px;
+  margin-left: 10px;
   letter-spacing: 2rpx;
   line-height: 40rpx;
 }

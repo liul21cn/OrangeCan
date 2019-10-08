@@ -1,18 +1,12 @@
 // pages/post/post.js
+var dataObj = require("../../data/data.js");
+
 Page({
 
   /**
    * 页面的初始数据
    */
-  data: {
-      date:"",
-      title:"",
-      postImg:" ",
-      avatar: " ",
-      content: " ",
-      readingNum: 92,
-      collectionNum: 108,
-      commentNum:7
+  data:{
   },
 
   /**
@@ -20,6 +14,15 @@ Page({
    */
   onLoad: function (options) {
     // 页面初始化 options为页面跳转所带来的参数
+    this.setData({
+      postList:dataObj.postList
+    })
+  },
+
+  imageLoad: function () {
+    this.setData({
+      imageWidth: wx.getSystemInfoSync().windowWidth,//图片宽度
+      })
   },
 
   /**
