@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/demo2/demo2",
+    "pages/index/index",    
+    "pages/orange/orange"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ECC08A",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
