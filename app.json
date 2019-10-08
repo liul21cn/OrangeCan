@@ -1,9 +1,6 @@
 {
   "pages": [
-    "pages/welcome/welcome",
-    "pages/demo2/demo2",
-    "pages/index/index",    
-    "pages/orange/orange"
+    "pages/welcome/welcome"  
   ],
   "window": {
     "backgroundTextStyle": "light",
