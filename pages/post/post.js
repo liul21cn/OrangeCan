@@ -1,5 +1,9 @@
 // pages/post/post.js
-var dataObj = require("../../data/data.js");
+// var dataObj = require("../../data/data.js");
+// var DBPost = require("../../db/DBPost.js").DBPost;
+
+// ES6版本的DBPost
+import { DBPost } from "../../db/DBPost.js";  
 
 Page({
 
@@ -14,9 +18,10 @@ Page({
    */
   onLoad: function (options) {
     // 页面初始化 options为页面跳转所带来的参数
+    var dbPost = new DBPost();
     this.setData({
-      postList:dataObj.postList
-    })
+      postList: dbPost.getAllPostData()
+    });    
   },
 
   imageLoad: function () {

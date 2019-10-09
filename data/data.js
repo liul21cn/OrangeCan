@@ -1,3 +1,4 @@
+// 定义数据
 var postList = [{
     date: "Jan 28 2017",
     title: "小时候的冰棍儿与雪糕",
@@ -155,6 +156,7 @@ var postList = [{
 },
 ]
 
+// 向外部暴露接口
 module.exports = {
     postList: postList
 }
