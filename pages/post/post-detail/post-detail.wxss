@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;    
-  padding-top: 0px;
+  padding-top: 0px;  /* 不增加该句上面会出现大块空白 */
 }
 
 .head-image {
@@ -24,7 +24,7 @@
   align-items: center;
   justify-content: space-between;
   font-size:13px;
-  width: 100%;
+  width: 100%;  /* 不设置 widht:100%, justify-content: space-between; 无效*/
 }
 
 /* 作者框 start */
