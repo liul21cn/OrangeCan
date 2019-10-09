@@ -1,0 +1,15 @@
+<!-- 详细内容 -->
+<view class="container">
+  <image class="head-image" src="{{post.postImg}}" />
+  <text class="title">{{post.title}}</text>
+  <!-- 作者框 -->
+  <view class="author-date">
+    <view class="author-box">
+      <image class="avatar" src="{{post.avatar}}"></image>
+      <text class="author">{{post.author}}</text>
+    </view>
+    <text class="date">{{post.dateTime}}</text>
+  </view>
+  <!-- 详细内容 -->
+  <text class="detail">{{post.detail}}</text>
+</view>
